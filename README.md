@@ -67,7 +67,7 @@ DELETE /<entity-name>/<id>
     (exec query)))
 
 (def handler3
-  (wrap-sql-query handler2))
+  (wrap-sql-query handler2 users))
 ```
 
 ## License
