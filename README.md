@@ -10,7 +10,7 @@ A small library to generate [Korma](https://github.com/korma/Korma) queries from
 ## Installation
 Add to your project.clj:
 ```clj
-[mummy "0.0.1-SNAPSHOT"]
+[mummy "0.1.0-SNAPSHOT"]
 ```
 ## Usage
 - Main function: `->query` (request requires Ring's wrap-params middleware)
